@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome_Kakao Talk</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
-            <!--wifi icon-->
+            <i class="fa-solid fa-wifi"></i>
         </div>
         
         <div class="status-bar__column">
@@ -19,22 +20,26 @@
 
         <div class="status-bar__column">
             <span>11%</span>
-            <!--battery icon-->
-            <!--charge icon-->
+            <i class="fa-solid fa-battery-quarter fa-xl"></i>
+            <i class="fa-solid fa-bolt fa-2xs fa-beat-fade"></i>
         </div>
     </header>
 
     <main>
         <div class="welcome-box">
-            <h1>Welcome to KakaoTalk</h1>
-            <h4>If you have a Kakao Account, log in with your email or phone number.</h4>
+            <h1 class="welcome-box__title">Welcome to KakaoTalk</h1>
+            <h4 class="welcome-box__subtitle">If you have a Kakao Account, log in with your email or phone number.</h4>
         </div>
 
-        <form action="">
-            <input type="text" placeholder="Email or Phone number" required>
-            <input type="password" placeholder="Password" required>
-            <input type="submit" value="Log in">
-            <input type="submit" value="Sign up">
+        <form class="form-data" action="">
+            <input type="text" placeholder="Email or Phone number" required
+            class="form-data__required">
+            <input type="password" placeholder="Password" required
+            class="form-data__required">
+            <input type="submit" value="Log In" 
+            class="form-data__btn">
+            <input type="submit" value="Sign Up"
+            class="form-data__btn">
             <a href="#">Find Kakao Account of Password</a>
         </form>
 
@@ -42,4 +47,6 @@
 
 
 </body>
+
+<script src="https://kit.fontawesome.com/90a585dfab.js" crossorigin="anonymous"></script>
 </html>
