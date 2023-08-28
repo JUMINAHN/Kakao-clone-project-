@@ -4,9 +4,27 @@
 @import "component/status-bar.css";
 @import "component/nav-bar.css";
 @import "component/index-bar.css";
+@import "component/user-box.css";
 
 /*screen*/
 @import "screen/index.css";
+@import "screen/friends.css";
 
 
+@keyframes first-birthout {
+    from{opacity: 1;}
+    to{opacity: 0;
+        visibility: hidden;}}
 
+#first-birth__screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 95px;
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+    top:0;
+    position: absolute;
+    animation: first-birthout 0.5s ease-in-out forwards;
+    animation-delay: 1.5s;}

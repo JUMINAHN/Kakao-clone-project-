@@ -1,0 +1,8 @@
+.friend-display{
+    background-color: whitesmoke;
+    margin-top: 3px;
+    padding:10px;
+    text-align: center;}
+
+.friend-display i{
+    color: rgba(0,0,0,0.2);}
