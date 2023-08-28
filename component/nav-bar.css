@@ -17,3 +17,20 @@
 .nav-bar i:hover{
     color:blue;
     animation:touch-nav 2s ease-in-out forwards;}
+
+.nav-bar__icon{
+    position:relative;}
+
+.nav-bar__icon:nth-child(2) span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    border-radius: 50%;
+    height:18px;
+    width:18px;
+    color:white;
+    font-size:14px;
+    position:absolute;
+    bottom:8px;
+    left:14px;}
