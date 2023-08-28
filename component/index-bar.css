@@ -1,0 +1,10 @@
+.index-bar{
+    display: flex;
+    justify-content: space-between;
+    padding:17px 15px 13px 15px;}
+
+.index-bar__column h4{
+    font-size:25px;
+    font-weight:550;}
+
+.index-bar__column i{margin-left:15px;}
