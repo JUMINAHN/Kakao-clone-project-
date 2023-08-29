@@ -28,3 +28,6 @@
     position: absolute;
     animation: first-birthout 0.5s ease-in-out forwards;
     animation-delay: 1.5s;}
+
+.main-box{
+    padding:0px 15px;}

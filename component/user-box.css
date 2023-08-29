@@ -1,0 +1,27 @@
+.user-box{justify-content: space-between;}
+
+.user-box,
+.user-box__column{
+    display: flex;
+    align-items: center;}
+
+.user-box__txt-title{
+    font-size: 17px;
+    font-weight: 600;}
+
+.user-box__txt-subtitle{
+    margin-top: 7px;
+    font-size:14px;
+    font-weight: 550;
+    color:rgba(0,0,0,0.4);}
+
+.user-box__column:last-child{
+    flex-direction: column;
+    justify-content: flex-end;}
+
+.user-box__img{
+    margin-right:12px;
+    width:55px;
+    height:55px;
+    border-radius: 35%;}
+
