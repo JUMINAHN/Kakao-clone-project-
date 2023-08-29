@@ -6,10 +6,12 @@
 @import "component/index-bar.css";
 @import "component/user-box.css";
 @import "component/badge.css";
+@import "component/icon-category.css";
 
 /*screen*/
 @import "screen/index.css";
 @import "screen/friends.css";
+@import "screen/find.css";
 
 
 @keyframes first-birthout {

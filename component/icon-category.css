@@ -1,0 +1,16 @@
+.icon-category,
+.icon-category__column{display: flex;}
+
+.icon-category{justify-content: space-between;
+margin-top: 10px;
+padding:30px 20px;
+border-bottom: 1px solid rgba(0,0,0,0.1);}
+
+.icon-category__column{
+    flex-direction: column;}
+
+.icon-category__column span{
+    align-items: center;
+    margin-top: 30px;}
+
+
