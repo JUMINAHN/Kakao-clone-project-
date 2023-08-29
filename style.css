@@ -5,6 +5,7 @@
 @import "component/nav-bar.css";
 @import "component/index-bar.css";
 @import "component/user-box.css";
+@import "component/badge.css";
 
 /*screen*/
 @import "screen/index.css";
