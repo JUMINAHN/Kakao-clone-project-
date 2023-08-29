@@ -1,9 +1,14 @@
-.user-box{justify-content: space-between;}
+/*user-box__total*/
+
+.user-box{justify-content: space-between;
+    margin-top:10px;}
 
 .user-box,
 .user-box__column{
     display: flex;
     align-items: center;}
+
+/*user-box__colum1*/
 
 .user-box__txt-title{
     font-size: 17px;
@@ -15,9 +20,18 @@
     font-weight: 550;
     color:rgba(0,0,0,0.4);}
 
+/*user-box__colum2*/
+
 .user-box__column:last-child{
     flex-direction: column;
-    justify-content: flex-end;}
+    align-items: end;}
+
+.user-box__column span{
+    margin-top:6px;}
+
+.user-box__time{
+    font-size: 13px;
+    color:rgba(0,0,0,0.4);}
 
 .user-box__img{
     margin-right:12px;

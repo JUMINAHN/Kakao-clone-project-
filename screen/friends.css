@@ -6,3 +6,37 @@
 
 .friend-display i{
     color: rgba(0,0,0,0.2);}
+
+
+.channel-category{
+    display: flex;
+    align-items: center;
+    border-top:1px solid rgba(0,0,0,0.2);
+    margin-top: 15px;
+    padding:10px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0,0,0,0.4);}
+
+.channel-category span{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.user-box__bigtxt-title{
+    font-size:20px;}
+
+.user-box__smalltxt-title{
+    font-size:17px;
+    font-weight: 400;}
+
+.user-box__bigimg{
+    width:65px;
+    height:65px;}
+
+.user-box__smallimg{
+    width:45px;
+    height:45px;}
+
+.user-box__channel-icon{
+    display: flex;}
