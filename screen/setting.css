@@ -1,0 +1,20 @@
+.head-indexbar{
+    padding:15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+.head-indexbar span{
+    font-size:21px;
+    font-weight: 600;}
+
+.settings-box{
+    margin:30px 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);}
+
+.settings-boxicon{
+    margin-bottom: 45px;}
+
+.settings-boxicon span{
+    font-size: 18px;
+    margin-left : 10px;}
