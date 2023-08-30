@@ -1,3 +1,4 @@
+/*recommend-box*/
 .recommend-box {
     color:rgba(0,0,0,0.4);
     padding:15px 0px;
@@ -12,9 +13,61 @@
     text-align: center;
     font-weight: 530;}
 
-.open-chat__column{
-    display: flex;}
+/*open-chat*/
+.open-chat{
+    padding: 13px 0px 10px 0px;
+    border-bottom:1px solid rgba(0,0,0,0.2);}
 
-.open-chat__column-head{
+.open-chat__head,
+.open-chat__content{
+    display: flex;
     justify-content: space-between;
+    align-items: center;}
+
+/*open-chat__head*/
+.open-chat__head{
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom:15px;}
+
+.open-chat__head-txt{
+    color: rgba(0,0,0,0.4);}
+
+.open-chat__head-icon{
+    color:rgba(0,0,0,0.2);}
+
+/*open-chat__content*/
+.open-chat__content{
+
 }
+
+.open-chat__maintxt{
+    font-weight: 550;}
+
+.open-chat__subtxt{
+    font-size: 13px;}
+
+.open-chat__txt-box{
+    display: flex;
+    align-items: center;
+    font-size:13px;
+    font-weight:550;
+}
+
+.open-chat__txt-box img{
+    margin-right: 8px;
+    width:20px;
+    height:20px;
+    border-radius: 50%;}
+
+.open-chat__txt-box-colora{
+    color:rgba(0,0,0,0.4);}
+
+.open-chat__txt-box-colorb{
+    color: rgba(236, 111, 221, 0.901);}
+
+
+.open-chat__content-img img{
+    width:90px;
+    height:90px;
+    border-radius: 9px;}
