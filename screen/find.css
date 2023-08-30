@@ -90,3 +90,19 @@
 
 .open-chat__content-imgluv span{
     margin-left:5px;}
+
+/*animation_luv*/
+
+@keyframes heartbeat{
+    0%{transform: scale(1);}
+
+    50%{transform: scale(1.5);
+    color: tomato;}
+
+    100%{transform: scale(1);}}
+
+.open-chat__content-imgluv i{
+    animation: heartbeat 1s ease-in infinite;}
+
+.open-chat__content-imgluv i:hover{
+    font-size:20px;}
