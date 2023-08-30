@@ -9,3 +9,13 @@
 
 .index-bar__column i{margin-left:15px;}
 
+
+@keyframes gearturn{
+    0%{transform: none;}
+
+    50%{transform: rotate(360deg)}
+
+    100%{transform: none;}}
+
+.fa-gear:hover{
+    animation:gearturn 3s ease-in-out infinite;}
