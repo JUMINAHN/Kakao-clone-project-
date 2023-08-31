@@ -20,9 +20,9 @@
     font-size: 12px;}
 
 
-/*talk-user*/
+/*talk-user__A*/
 .talk-user{display: flex;
-margin-top: 20px;}
+margin: 20px 0px;}
 
 .talk-user__img{
     margin-right:10px;
@@ -49,12 +49,17 @@ margin-top: 20px;}
     margin-bottom: 10px;}
 
 .talk-user__txt-subtitle{
-    border-top-left-radius: none;
     background-color: white;
     padding:7px;
     border-radius: 0px 100px 100px 100px}
 
+/*talk-user__B*/
+.talk-lead-user{
+    display: flex;
+    justify-content: flex-end;}
 
+.talk-user__txt-leadtitle{
+    background-color: yellow;}
 /*bottom-message box*/
 
 .message-box{
