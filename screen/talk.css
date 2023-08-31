@@ -1,3 +1,38 @@
 #talk-with{
-    background-color: rgb(185, 220, 234);
-}
+    background-color: rgb(185, 220, 234);}
+
+
+.talk-date{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    width: 200px;
+    padding: 7px;
+    border-radius: 13px;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    font-size: 12px;}
+
+
+.message-box{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding:15px;
+    width: 100%;
+    position: fixed;
+    bottom:0px;
+    color:rgba(0,0,0,0.3);}
+
+.message-box__img{
+    width: 10%;}
+
+.message-box__txt{
+    width: 100%;}
+
+.message-box__txt-sth{
+    border-radius: 13px;
+    width: 90%;}
+
+
