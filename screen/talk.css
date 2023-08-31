@@ -20,9 +20,16 @@
     font-size: 12px;}
 
 
+/*talk-user__A-animation*/
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}}
+
+
 /*talk-user__A*/
 .talk-user{display: flex;
-margin: 20px 0px;}
+margin: 20px 0px;
+animation: fadein 2s;}
 
 .talk-user__img{
     margin-right:10px;
@@ -53,14 +60,26 @@ margin: 20px 0px;}
     padding:7px;
     border-radius: 0px 100px 100px 100px}
 
-/*talk-user__B*/
-.talk-lead-user{
+/*talk-user__B : little messy*/
+.talk-lead__user{
+    animation: fadein 5s ease-in-out;}
+
+.talk-user__leadtxt{
     display: flex;
-    justify-content: flex-end;}
+    flex-direction: row-reverse;
+    align-items: flex-end;}
 
 .talk-user__txt-leadtitle{
-    background-color: yellow;}
-/*bottom-message box*/
+    background-color: yellow;
+    border-radius: 100px 0px 100px 100px;
+    padding:7px;}
+
+.talk-user__leadtxt span:last-child{
+    color:rgba(0,0,0,0.6);
+    font-size:11px;
+    margin-right:5px;}
+
+/*bottom-message box : messy*/
 
 .message-box{
     display: flex;
@@ -76,10 +95,25 @@ margin: 20px 0px;}
     width: 10%;}
 
 .message-box__txt{
-    width: 100%;}
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;}
+
+.message-box__txt i{
+    position: absolute;
+    right:60px;
+    top: 17px;
+    color:black;}
+
+.message-box__txt i:last-child{
+    right:30px;
+    color:tomato;}
 
 .message-box__txt-sth{
     border-radius: 13px;
+    padding:8px;
     width: 90%;}
+
 
 
